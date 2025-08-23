@@ -7,13 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Abstractions\" />
       <Folder Include="Configuration\" />
       <Folder Include="Errors\" />
       <Folder Include="Events\" />
       <Folder Include="Exceptions\" />
       <Folder Include="Extensions\" />
-      <Folder Include="Security\" />
       <Folder Include="SharedKernel\" />
       <Folder Include="Utilities\" />
     </ItemGroup>
