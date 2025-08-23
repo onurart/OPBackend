@@ -1,0 +1,70 @@
+# ---- OS / Genel ----
+.DS_Store
+Thumbs.db
+*.orig
+*.rej
+
+# ---- IDE / Editör ----
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+_ReSharper*/
+*.DotSettings.user
+
+# ---- .NET build çıktıları ----
+**/bin/
+**/obj/
+**/out/
+**/publish/
+**/Generated/*
+BenchmarkDotNet.Artifacts/
+
+# ---- Günlükler / Geçici ----
+logs/
+*.log
+*.tmp
+*.temp
+
+# ---- Test / Coverage ----
+TestResults/
+*.coverage
+*.coveragexml
+.coverage
+.coveragexml
+.coverlet/
+
+# ---- Paketleme ----
+*.nupkg
+*.snupkg
+packages/
+.paket/
+paket-files/
+
+# ---- EF Core / Config (takıma göre düzenle) ----
+# Migrations'ı GENELLİKLE commit'lersin, o yüzden IGNORE ETMİYORUZ.
+# Yerel gizli ayarlar:
+appsettings.*.local.json
+appsettings.Local.json
+*.secrets.json
+Secrets/
+secrets.json
+
+# ---- Ortam değişkeni dosyaları ----
+.env
+.env.*
+
+# ---- Veritabanı dosyaları (isteğe bağlı) ----
+**/*.sqlite
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# ---- Diğer araçlar ----
+node_modules/
+dist/
+
