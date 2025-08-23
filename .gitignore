@@ -68,3 +68,6 @@ secrets.json
 node_modules/
 dist/
 
+
+**/bin/
+**/obj/
